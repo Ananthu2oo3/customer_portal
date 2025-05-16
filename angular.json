@@ -84,18 +84,22 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/home/typewriter.js"
+              
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "9dad0a65-1589-4c51-8a30-b69c62a86ed9"
   }
 }

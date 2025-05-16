@@ -27,3 +27,17 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('h1')?.textContent).toContain('Hello, customer_portal');
   });
 });
+
+// import { Component } from '@angular/core';
+// import { VendorComponent } from './vendor/vendor.component'; // adjust path as needed
+
+// @Component({
+//   selector: 'app-root',
+//   standalone: true,
+//   imports: [VendorComponent], // 👈 Register the standalone component here
+//   templateUrl: './app.component.html',
+//   styleUrls: ['./app.component.css']
+// })
+// export class AppComponent {
+//   title = 'your-app-name';
+// }
